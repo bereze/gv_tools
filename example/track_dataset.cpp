@@ -67,7 +67,7 @@ int main(int argc,char *argv[])
 			
 #ifdef DEBUG_PITCH_COMPENSATION
 			ofs_debug_pitch<<setprecision(4)<<setiosflags(ios::fixed)<<tt
-			<<all_imu_pitch[tt]<<" "<<comp<<" "<< <<std::endl;
+			 << " " <<all_imu_pitch[tt]<<" "<<comp<<" "<<std::endl;
 #endif
 		}
 
